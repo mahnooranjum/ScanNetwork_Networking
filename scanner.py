@@ -24,5 +24,7 @@ def scan(ip):
         print(i[1].psrc+"\t\t\t"+i[1].hwsrc)
 
 ip = get_arg("t", "target", "The target IP/IPs that you want to scan")
-
-scan(ip.target)
+if(ip.target):
+    scan(ip.target)
+else:
+    print("Please specify the target, --help for more details")
