@@ -9,3 +9,6 @@ Download the code and run it in the command line on:
 |-------|------------|
 | venv  | Python environment files | 
 | scanner.py  | Network scanner | 
+
+## Output
+![program output](output.png)
